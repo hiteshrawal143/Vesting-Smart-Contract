@@ -38,7 +38,18 @@ This project involves building a token vesting smart contract on the blockchain,
 Compile the Contract: Use a Solidity compiler (like Remix) to compile the contract.
 
  * Deploy the Contract: 
-    - Deploy the compiled contract on your preferred Ethereum network (testnet or mainnet). Ensure you provide the correct token address and total allocated tokens during deployment.
+    - Deploy the compiled contract on your preferred Ethereum network (testnet or mainnet).
+    - Ensure you provide the correct token address and total allocated tokens during deployment.
 
+ ## Usage
+     addBeneficiary(address beneficiary, uint256 cliff, uint256 duration, uint256 allocation)
+ Adding Beneficiaries: The contract owner can add beneficiaries before starting the vesting. Each beneficiary is assigned a cliff period, vesting duration, and token allocation.
+ Starting Vesting    : Once all beneficiaries are added, the owner can start the vesting period.
+ Claiming Tokens     : Beneficiaries can claim their vested tokens once the cliff period is over and tokens have vested.
 
+ ## Events
+   VestingStarted    : Emitted when the vesting starts.
+   BeneficiaryAdded  : Emitted when a beneficiary is added.
+   TokensClaimed     : Emitted when a beneficiary claims tokens.
 
+ 
