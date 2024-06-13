@@ -23,11 +23,11 @@ This project involves building a token vesting smart contract on the blockchain,
         - Cliff Period: 2 months
         - Vesting Duration: 1 year
 
-##Features
-      - Owner can start vesting.
-      - Beneficiaries can be added for each role before vesting starts.
-      - Beneficiaries can claim their vested tokens according to the schedule.
-      - Events are emitted for vesting start, beneficiary addition, and token withdrawal.
+## Features
+  - Owner can start vesting.
+  - Beneficiaries can be added for each role before vesting starts.
+  - Beneficiaries can claim their vested tokens according to the schedule.
+  - Events are emitted for vesting start, beneficiary addition, and token withdrawal.
   
  ##Deployment and Usage
       - Install Dependencies: Ensure you have Node.js and npm installed. Install the necessary dependencies:
