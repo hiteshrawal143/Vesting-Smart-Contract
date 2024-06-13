@@ -37,9 +37,9 @@ This project involves building a token vesting smart contract on the blockchain,
 
 Compile the Contract: Use a Solidity compiler (like Remix) to compile the contract.
 
- * Deploy the Contract: 
-    - Deploy the compiled contract on your preferred Ethereum network (testnet or mainnet).
-    - Ensure you provide the correct token address and total allocated tokens during deployment.
+## Deploy the Contract: 
+ - Deploy the compiled contract on your preferred Ethereum network (testnet or mainnet).
+ - Ensure you provide the correct token address and total allocated tokens during deployment.
 
  ## Usage
      addBeneficiary(address beneficiary, uint256 cliff, uint256 duration, uint256 allocation)
