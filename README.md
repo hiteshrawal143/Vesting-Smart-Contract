@@ -29,8 +29,8 @@ This project involves building a token vesting smart contract on the blockchain,
   - Beneficiaries can claim their vested tokens according to the schedule.
   - Events are emitted for vesting start, beneficiary addition, and token withdrawal.
   
- ##Deployment and Usage
-      - Install Dependencies: Ensure you have Node.js and npm installed. Install the necessary dependencies:
+ ## Deployment and Usage
+  - Install Dependencies: Ensure you have Node.js and npm installed. Install the necessary dependencies:
 
 ## bash
     npm install @openzeppelin/contracts
