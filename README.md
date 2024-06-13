@@ -23,14 +23,22 @@ This project involves building a token vesting smart contract on the blockchain,
         - Cliff Period: 2 months
         - Vesting Duration: 1 year
 
-## Features
+##Features
       - Owner can start vesting.
       - Beneficiaries can be added for each role before vesting starts.
       - Beneficiaries can claim their vested tokens according to the schedule.
       - Events are emitted for vesting start, beneficiary addition, and token withdrawal.
   
- ## Deployment and Usage
+ ##Deployment and Usage
+      - Install Dependencies: Ensure you have Node.js and npm installed. Install the necessary dependencies:
 
+## bash
+    npm install @openzeppelin/contracts
+
+Compile the Contract: Use a Solidity compiler (like Remix) to compile the contract.
+
+ * Deploy the Contract: 
+    - Deploy the compiled contract on your preferred Ethereum network (testnet or mainnet). Ensure you provide the correct token address and total allocated tokens during deployment.
 
 
 
