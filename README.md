@@ -12,3 +12,15 @@ This project involves building a token vesting smart contract on the blockchain,
         - Allocation: 50% of total allocated tokens
         - Cliff Period: 10 months
         - Vesting Duration: 2 years
+      2. Partners
+         -Allocation: 25% of total allocated tokens
+         -Cliff Period: 2 months
+         -Vesting Duration: 1 year
+      3. Team
+         -Allocation: 25% of total allocated tokens
+         -Cliff Period: 2 months
+         -Vesting Duration: 1 year
+
+
+
+
