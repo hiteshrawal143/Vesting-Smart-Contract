@@ -43,13 +43,13 @@ Compile the Contract: Use a Solidity compiler (like Remix) to compile the contra
 
  ## Usage
      addBeneficiary(address beneficiary, uint256 cliff, uint256 duration, uint256 allocation)
- Adding Beneficiaries: The contract owner can add beneficiaries before starting the vesting. Each beneficiary is assigned a cliff period, vesting duration, and token allocation.
- Starting Vesting    : Once all beneficiaries are added, the owner can start the vesting period.
- Claiming Tokens     : Beneficiaries can claim their vested tokens once the cliff period is over and tokens have vested.
+  - Adding Beneficiaries: The contract owner can add beneficiaries before starting the vesting. Each beneficiary is assigned a cliff period, vesting duration, and token allocation.
+  - Starting Vesting    : Once all beneficiaries are added, the owner can start the vesting period.
+  - Claiming Tokens     : Beneficiaries can claim their vested tokens once the cliff period is over and tokens have vested.
 
  ## Events
-   VestingStarted    : Emitted when the vesting starts.
-   BeneficiaryAdded  : Emitted when a beneficiary is added.
-   TokensClaimed     : Emitted when a beneficiary claims tokens.
+   - VestingStarted    : Emitted when the vesting starts.
+   - BeneficiaryAdded  : Emitted when a beneficiary is added.
+   - TokensClaimed     : Emitted when a beneficiary claims tokens.
 
  
